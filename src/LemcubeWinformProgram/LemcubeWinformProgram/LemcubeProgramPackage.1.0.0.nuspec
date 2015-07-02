@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>LemcubeProgramPackage</id>
+        <version>1.0.0</version>
+        <title>The package of Lemcube Project</title>
+        <authors>Lemcube Snc</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>My package description.</description>
+    </metadata>
+    <files>
+        <file src="bin\Debug\DeltaCompressionDotNet.dll" target="lib\net45\DeltaCompressionDotNet.dll" />
+        <file src="bin\Debug\DeltaCompressionDotNet.MsDelta.dll" target="lib\net45\DeltaCompressionDotNet.MsDelta.dll" />
+        <file src="bin\Debug\DeltaCompressionDotNet.PatchApi.dll" target="lib\net45\DeltaCompressionDotNet.PatchApi.dll" />
+        <file src="bin\Debug\ICSharpCode.SharpZipLib.dll" target="lib\net45\ICSharpCode.SharpZipLib.dll" />
+        <file src="bin\Debug\LemcubeLibrary.dll" target="lib\net45\LemcubeLibrary.dll" />
+        <file src="bin\Debug\LemcubeWinformProgram.exe" target="lib\net45\LemcubeWinformProgram.exe" />
+        <file src="bin\Debug\Splat.dll" target="lib\net45\Splat.dll" />
+        <file src="bin\Debug\Squirrel.dll" target="lib\net45\Squirrel.dll" />
+    </files>
+</package>
