@@ -29,20 +29,21 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonCallLibrary = new System.Windows.Forms.Button();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripButtonCheckForUpdates = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button1
+            // buttonCallLibrary
             // 
-            this.button1.Location = new System.Drawing.Point(104, 136);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.buttonCallLibrary.Location = new System.Drawing.Point(104, 136);
+            this.buttonCallLibrary.Name = "buttonCallLibrary";
+            this.buttonCallLibrary.Size = new System.Drawing.Size(164, 23);
+            this.buttonCallLibrary.TabIndex = 0;
+            this.buttonCallLibrary.Text = "Call library Function";
+            this.buttonCallLibrary.UseVisualStyleBackColor = true;
+            this.buttonCallLibrary.Click += new System.EventHandler(this.buttonCallLibrary_Click);
             // 
             // toolStrip1
             // 
@@ -70,7 +71,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(645, 375);
             this.Controls.Add(this.toolStrip1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.buttonCallLibrary);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
             this.Text = "Lemcube Winform Program";
@@ -83,7 +84,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonCallLibrary;
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripButton toolStripButtonCheckForUpdates;
     }

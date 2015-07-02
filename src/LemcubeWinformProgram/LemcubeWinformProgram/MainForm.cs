@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LemcubeLibrary;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,6 +21,20 @@ namespace LemcubeWinformProgram
         private void toolStripButtonCheckForUpdates_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void buttonCallLibrary_Click(object sender, EventArgs e)
+        {
+            LibraryClass lc = new LibraryClass();
+            try
+            {
+                string result = lc.GetDateTimeFromLibrary();
+                MessageBox.Show(result);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
         }
     }
 }
