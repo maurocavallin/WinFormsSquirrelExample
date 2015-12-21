@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>LemcubeProgramPackage</id>
+        <version>0.0.0</version>
+        <title>The package of Lemcube Project</title>
+        <authors>Lemcube Snc</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Demo Program With Auto Update By Lemcube</description>
+    </metadata>
+    <files>
+        <file src="..\LemcubeWinformProgram\bin\Debug\DeltaCompressionDotNet.dll" target="lib\net45\DeltaCompressionDotNet.dll" />
+        <file src="..\LemcubeWinformProgram\bin\Debug\DeltaCompressionDotNet.MsDelta.dll" target="lib\net45\DeltaCompressionDotNet.MsDelta.dll" />
+        <file src="..\LemcubeWinformProgram\bin\Debug\DeltaCompressionDotNet.PatchApi.dll" target="lib\net45\DeltaCompressionDotNet.PatchApi.dll" />
+        <file src="..\LemcubeWinformProgram\bin\Debug\ICSharpCode.SharpZipLib.dll" target="lib\net45\ICSharpCode.SharpZipLib.dll" />
+        <file src="..\LemcubeWinformProgram\bin\Debug\LemcubeLibrary.dll" target="lib\net45\LemcubeLibrary.dll" />
+        <file src="..\LemcubeWinformProgram\bin\Debug\LemcubeWinformProgram.exe" target="lib\net45\LemcubeWinformProgram.exe" />
+        <file src="..\LemcubeWinformProgram\bin\Debug\Splat.dll" target="lib\net45\Splat.dll" />
+        <file src="..\LemcubeWinformProgram\bin\Debug\Squirrel.dll" target="lib\net45\Squirrel.dll" />
+    </files>
+</package>

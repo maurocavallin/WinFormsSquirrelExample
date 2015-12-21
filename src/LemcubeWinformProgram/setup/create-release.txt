@@ -1,0 +1,5 @@
+User Nuget Package manager in VS
+change dir to this directory
+match the version of the last nugetPkg created
+
+squirrel --releasify=.\LemcubeProgramPackage.3.0.0.nupkg

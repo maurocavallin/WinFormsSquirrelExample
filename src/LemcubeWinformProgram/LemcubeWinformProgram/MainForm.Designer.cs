@@ -32,12 +32,15 @@
             this.buttonCallLibrary = new System.Windows.Forms.Button();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripButtonCheckForUpdates = new System.Windows.Forms.ToolStripButton();
+            this.textBoxPathForUpdate = new System.Windows.Forms.TextBox();
+            this.labelPathForUpdate = new System.Windows.Forms.Label();
+            this.buttonCheckUpdatesPath = new System.Windows.Forms.Button();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // buttonCallLibrary
             // 
-            this.buttonCallLibrary.Location = new System.Drawing.Point(104, 136);
+            this.buttonCallLibrary.Location = new System.Drawing.Point(187, 214);
             this.buttonCallLibrary.Name = "buttonCallLibrary";
             this.buttonCallLibrary.Size = new System.Drawing.Size(164, 23);
             this.buttonCallLibrary.TabIndex = 0;
@@ -65,11 +68,41 @@
             this.toolStripButtonCheckForUpdates.Text = "Check for Updates";
             this.toolStripButtonCheckForUpdates.Click += new System.EventHandler(this.toolStripButtonCheckForUpdates_Click);
             // 
+            // textBoxPathForUpdate
+            // 
+            this.textBoxPathForUpdate.Location = new System.Drawing.Point(187, 97);
+            this.textBoxPathForUpdate.Name = "textBoxPathForUpdate";
+            this.textBoxPathForUpdate.Size = new System.Drawing.Size(164, 20);
+            this.textBoxPathForUpdate.TabIndex = 2;
+            this.textBoxPathForUpdate.Text = "C:\\TEMP\\t";
+            // 
+            // labelPathForUpdate
+            // 
+            this.labelPathForUpdate.AutoSize = true;
+            this.labelPathForUpdate.Location = new System.Drawing.Point(4, 100);
+            this.labelPathForUpdate.Name = "labelPathForUpdate";
+            this.labelPathForUpdate.Size = new System.Drawing.Size(177, 13);
+            this.labelPathForUpdate.TabIndex = 3;
+            this.labelPathForUpdate.Text = "Path of directory containing updates";
+            // 
+            // buttonCheckUpdatesPath
+            // 
+            this.buttonCheckUpdatesPath.Location = new System.Drawing.Point(357, 95);
+            this.buttonCheckUpdatesPath.Name = "buttonCheckUpdatesPath";
+            this.buttonCheckUpdatesPath.Size = new System.Drawing.Size(164, 23);
+            this.buttonCheckUpdatesPath.TabIndex = 4;
+            this.buttonCheckUpdatesPath.Text = "Check Updates Path";
+            this.buttonCheckUpdatesPath.UseVisualStyleBackColor = true;
+            this.buttonCheckUpdatesPath.Click += new System.EventHandler(this.button1_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(645, 375);
+            this.Controls.Add(this.buttonCheckUpdatesPath);
+            this.Controls.Add(this.labelPathForUpdate);
+            this.Controls.Add(this.textBoxPathForUpdate);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.buttonCallLibrary);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -87,6 +120,9 @@
         private System.Windows.Forms.Button buttonCallLibrary;
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripButton toolStripButtonCheckForUpdates;
+        private System.Windows.Forms.TextBox textBoxPathForUpdate;
+        private System.Windows.Forms.Label labelPathForUpdate;
+        private System.Windows.Forms.Button buttonCheckUpdatesPath;
     }
 }
 
